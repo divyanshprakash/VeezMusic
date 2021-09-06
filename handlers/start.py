@@ -79,7 +79,7 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **bot is running**\n<b>💠 **uptime:**</b> `{uptime}`""",
+        f"""✅ **BOT IS ONLINE DO /help for cmds**\n<b>💠 **uptime:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -101,7 +101,7 @@ async def help(client: Client, message: Message):
 
 **Please press the button below to read the explanation and see the list of available commands !**
 
-⚡ __Powered by {BOT_NAME} A.I""",
+⚡ __Powered by {BOT_NAME} A.I """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
