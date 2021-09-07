@@ -61,7 +61,7 @@ async def start_(client: Client, message: Message):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🌐 Wiki's Page", url="https://github.com/levina-lab/veezmusic/wiki/Veez-Music-Wiki's")
+                        "🌐 Wiki's Page", url="https://telegra.ph/Ultroid-09-07-2")
                 ],[
                     InlineKeyboardButton(
                         "🧪 Source Code 🧪", url="https://telegra.ph/Ultroid-09-06-2"
