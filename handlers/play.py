@@ -720,7 +720,7 @@ async def lol_cb(b, cb):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
         if (dur / 60) > DURATION_LIMIT:
-             await cb.message.edit(f"❌ Songs with a duration of more than `{DURATION_LIMIT}` minutes cannot be played.)
+             await cb.message.edit(f"❌ Songs with a duration of more than `{DURATION_LIMIT}` minutes cannot be played.")
              return
     except:
         pass
